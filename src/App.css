@@ -1,0 +1,14 @@
+/* App-level styles */
+.Boardmap {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure no default margins or padding interfere */
+#root {
+  width: 100%;
+  min-height: 100vh;
+} 
