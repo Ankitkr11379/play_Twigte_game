@@ -1,0 +1,70 @@
+body {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Standard */
+}
+
+@keyframes animateVisitedCell {
+  0% {
+    background-color: #2e325b;
+    scale: 0;
+    animation-timing-function: linear;
+  }
+  25% {
+    background-color: #35528e;
+    scale: 0.5;
+    animation-timing-function: linear;
+  }
+  50% {
+    background-color: #3e6cb7;
+    scale: 1;
+    animation-timing-function: linear;
+  }
+  75% {
+    background-color: #4cad99;
+    scale: 1.2;
+    animation-timing-function: linear;
+  }
+  100% {
+    background-color: #4fadc1;
+    scale: 1;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes animateWall {
+  0% {
+    background-color: #2e325b;
+    scale: 0;
+    animation-timing-function: linear;
+  }
+  50% {
+    background-color: #2e325b;
+    scale: 1.2;
+    animation-timing-function: linear;
+  }
+  100% {
+    background-color: #2e325b;
+    scale: 1;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes animateWeight {
+  0% {
+    scale: 0;
+    background-color: #67487c;
+    animation-timing-function: linear;
+  }
+  50% {
+    scale: 1.2;
+    background-color: #5a3b6c;
+    animation-timing-function: linear;
+  }
+  100% {
+    scale: 1;
+    background-color: #3c0659;
+    animation-timing-function: linear;
+  }
+}
