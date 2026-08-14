@@ -76,7 +76,7 @@ function App() {
           ) : (
             <div className="game-iframe-container">
               <iframe 
-                src="http://localhost:5174" 
+                src={import.meta.env.DEV ? "http://localhost:5174" : "/pathfinder/index.html"} 
                 className="game-iframe" 
                 title="Pathfinder Visualizer"
                 allowFullScreen
